@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <title>{{ config.title }}</title>
+
+    <!-- Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ config.description }}" />
+
+    <link href="{{ config.base_url | safe }}/main.css" rel="stylesheet" type="text/css" />
+
+    {% block head %}
+    {% endblock head %}
+</head>
+
+<body>
+{% block body %}
+{% endblock body %}
+</body>
+
+</html>
