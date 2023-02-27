@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://127.0.0.1:111"
+base_url = "https://zola-pages.pages.dev/"
 
 title = "Thoughts, stories and JAMstack."
 description = "Lipsum Ipsum"
